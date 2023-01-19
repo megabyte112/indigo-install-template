@@ -1,0 +1,5 @@
+#!/bin/bash
+# This script will run after all packages have been installed and files have been copied.
+
+
+exit 0
