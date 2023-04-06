@@ -25,7 +25,7 @@ The `questions.sh` script is a shell script that is ran just before installation
 
 The `services` file is a list contaning every systemd service that needs to be enabled. If you need the username, use `$username`. Remember to remove the example line!
 
-The `setup.sh` script is ran after installation. You can put anything you like in there to prepare the system.
+The `setup.sh` script is ran after installation. You can put anything you like in there to prepare the system. Two arguments are passes to this script: the first is the username, and the second is the network adapter.
 
 Finally, the `config` directory acts like the root of the filesystem. It gets copied to the root of the final installation. This is where your configs should go! Assume the username is exactly `username`.
 For example, if you wanted to configure `picom`, you would place your configuration file in `config/home/username/.config/picom/picom.conf`. You can make your own folders in here too, like `usr` and `etc`.
