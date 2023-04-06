@@ -7,8 +7,9 @@
 # To run commands in the chroot environment, use the following syntax:
 #       arch-chroot /mnt bash -c "<your command here>"
 
-# set username variable
+# set username and network variables
 username="$1"
+network="$2"
 
 
 # your code here
